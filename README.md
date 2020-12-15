@@ -16,7 +16,7 @@ This is the test task. The description of the task is in file Test_task.docx
     
 ## Executing:
 - Script start_tests.sh is used to run tests and generate Allure report.
-- For generating Allure report without tests executing run following command:
+- For generating Allure report without tests executing unzip allure_report.zip and run the following command:
     - allure serve report_allure/
 
 ## TASK 11:
