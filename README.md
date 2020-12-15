@@ -1,6 +1,6 @@
 # SWapi_TEST
 
-This is the test task. The wording of the task is in file Test_task.docx
+This is the test task. The description of the task is in file Test_task.docx
 
 ## Preparation:
 - Python3 is required to run:
@@ -18,11 +18,11 @@ This is the test task. The wording of the task is in file Test_task.docx
 - Script start_tests.sh is used to run tests and generate Allure report.
 
 ## TASK 11:
-It was an abstract task: try to suggest and implement any other meaningful and suitable tests for "get /people" request. I suggest and implement the following tests:
-- Test which check that every page contain 10 people objects except the last page (the last page may contain <= 10 people objects).
-- Test which check that max person ID for /people/:id/ request = "count" field + 1 from http://swapi.dev/api/people/ request.
-- Test which check that every "next" and "previous" fields from http://swapi.dev/api/people/?page=... request matches the pattern http://swapi.dev/api/people/?page=<number> or null.
+Abstract task: try to suggest and implement any other meaningful and suitable tests for "get /people" request. I suggested and implemented the following tests:
+- Test that checks if every page contains 10 people objects except for the last page (the last page may contain <= 10 people objects).
+- Test that checks if max person ID for /people/:id/ request equals "count" field + 1 from http://swapi.dev/api/people/ request.
+- Test thst checks if every "next" and "previous" field from http://swapi.dev/api/people/?page=... request matches the pattern http://swapi.dev/api/people/?page=<number> or null.
 
 ## TASK 12:
-It was an abstract task: try to suggest (and implement if possible) any meaningful and suitable tests for "get/people" requests with parameter ?format=wookiee. I suggest the following test: 
-- Test which check that every http://swapi.dev/api/people/:id/ request structurally match corresponding http://swapi.dev/api/people/:id/?format=wookiee request (the number of fields and type of its content is the same in both queries).
+Abstract task: try to suggest (and implement if possible) any meaningful and suitable tests for "get/people" requests with parameter ?format=wookiee. I suggested the following test: 
+- Test that checks if every http://swapi.dev/api/people/:id/ request structurally matches corresponding http://swapi.dev/api/people/:id/?format=wookiee request (the number of fields and type of its content are the same in both queries).
