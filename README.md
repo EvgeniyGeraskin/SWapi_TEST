@@ -13,4 +13,4 @@
     - https://github.com/allure-framework/allure2#download
     
 ## Executing:
-- Script start_tests.sh is used to run tests.
+- Script start_tests.sh is used to run tests and generate Allure report.
