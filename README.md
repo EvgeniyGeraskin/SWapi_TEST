@@ -16,6 +16,8 @@ This is the test task. The description of the task is in file Test_task.docx
     
 ## Executing:
 - Script start_tests.sh is used to run tests and generate Allure report.
+- For generating Allure report without tests executing run following command:
+    - allure serve report_allure/
 
 ## TASK 11:
 Abstract task: try to suggest and implement any other meaningful and suitable tests for "get /people" request. I suggested and implemented the following tests:
