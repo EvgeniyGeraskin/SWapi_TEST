@@ -21,7 +21,7 @@ This is the test task. The description of the task is in file Test_task.docx
 Abstract task: try to suggest and implement any other meaningful and suitable tests for "get /people" request. I suggested and implemented the following tests:
 - Test that checks if every page contains 10 people objects except for the last page (the last page may contain <= 10 people objects).
 - Test that checks if max person ID for /people/:id/ request equals "count" field + 1 from http://swapi.dev/api/people/ request.
-- Test thst checks if every "next" and "previous" field from http://swapi.dev/api/people/?page=... request matches the pattern http://swapi.dev/api/people/?page=<number> or null.
+- Test thst checks if every "next" and "previous" field from http://swapi.dev/api/people/?page=... request matches the pattern http://swapi.dev/api/people/?page=*number* or null.
 
 ## TASK 12:
 Abstract task: try to suggest (and implement if possible) any meaningful and suitable tests for "get/people" requests with parameter ?format=wookiee. I suggested the following test: 
