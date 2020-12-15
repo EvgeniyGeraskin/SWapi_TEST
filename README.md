@@ -18,7 +18,7 @@ This is the test task. The wording of the task is in file Test_task.docx
 - Script start_tests.sh is used to run tests and generate Allure report.
 
 ## TASK 11:
-It was an abstract task: to suggest and implement any other meaningful and suitable tests for "get /people" request. I suggest and implement the following tests:
+It was an abstract task: try to suggest and implement any other meaningful and suitable tests for "get /people" request. I suggest and implement the following tests:
 - Test which check that every page contain 10 people objects except the last page (the last page may contain <= 10 people objects).
 - Test which check that max person ID for /people/:id/ request = "count" field + 1 from http://swapi.dev/api/people/ request.
 - Test which check that every "next" and "previous" fields from http://swapi.dev/api/people/?page=... request matches the pattern http://swapi.dev/api/people/?page=<number> or null.
