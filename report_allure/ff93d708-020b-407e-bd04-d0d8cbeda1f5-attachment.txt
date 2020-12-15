@@ -1,3 +1,0 @@
-
-Count field from request: 82
-Length of the all_people_array: 82
